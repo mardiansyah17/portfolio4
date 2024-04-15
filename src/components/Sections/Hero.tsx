@@ -8,7 +8,7 @@ const Hero = () => {
         <div
             className={"flex justify-center relative items-center flex-col md:flex-row-reverse md:justify-around min-h-screen"}>
             <div className={`w-full h-[15rem] sm:h-[32rem] md:size-[40rem] relative`}>
-                <Image src={'/images/Muhammad Mardiansyah1.png'} priority className={'object-cover'}
+                <Image src={'/images/Muhammad Mardiansyah.png'} priority className={'object-cover'}
                        alt={'Muhammad Mardiansyah'}
                        fill/>
 
