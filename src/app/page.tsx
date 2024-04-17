@@ -3,6 +3,7 @@ import Hero from "@/components/Sections/Hero";
 import AboutMe from "@/components/Sections/AboutMe";
 import Skills from "@/components/Sections/Skills";
 import type {Metadata} from "next";
+import Projects from "@/components/Sections/Projects";
 
 export const metadata: Metadata = {
     title: 'Muhammad Mardiansyah | Software Engineer',
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     authors: [{name: "Muhammad Mardiansyah"}],
     creator: "Muhammad Mardiansyah",
     publisher: "Muhammad Mardiansyah",
-    
+
 
 }
 const Page = () => {

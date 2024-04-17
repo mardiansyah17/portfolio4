@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const ItemSkill = ({logo, title}: { logo: string, title: string }) => {
+const ItemSkill = ({logo, title, bg}: { logo: string, title: string, bg?: string }) => {
     return (
         <div
             className={`
@@ -15,7 +15,7 @@ const ItemSkill = ({logo, title}: { logo: string, title: string }) => {
                 ease-in-out
                 hover:-translate-y-1
               `}>
-            <Image src={`/svg/${logo}.svg`} width={50} height={50}
+            <Image className={`${bg ? bg : ""}`} src={`/svg/${logo}.svg`} width={50} height={50}
                    alt={`mardiancode-${logo}`}/>
             <span className={`capitalize`}>{title}</span>
         </div>
