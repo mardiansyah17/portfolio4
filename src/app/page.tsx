@@ -20,10 +20,11 @@ export const metadata: Metadata = {
 const Page = () => {
     return (
         <>
-            <Hero/>
-            <AboutMe/>
+            <h1 classNames="text-4xl text-center">TIDAK ADA YANG GRATISAN BRO</h1>
+{/*             <Hero/>
+            <AboutMe/> */}
             {/*<Projects/>*/}
-            <Skills/>
+{/*             <Skills/> */}
         </>
     );
 };
