@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const Page = () => {
     return (
         <>
-            <h1 classNames="text-4xl text-center">TIDAK ADA YANG GRATISAN BRO</h1>
+            <h1 className="text-4xl text-center">TIDAK ADA YANG GRATISAN BRO</h1>
 {/*             <Hero/>
             <AboutMe/> */}
             {/*<Projects/>*/}
