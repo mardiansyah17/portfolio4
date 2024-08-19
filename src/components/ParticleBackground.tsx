@@ -26,9 +26,7 @@ const ParticleBackground = () => {
     });
   }, []);
 
-  const particlesLoaded = (container: Container) => {
-    console.log(container);
-  };
+  const particlesLoaded = (container: Container) => {};
 
   if (init) {
     return <Particles id="tsparticles" options={particleConfig} />;

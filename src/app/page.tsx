@@ -8,6 +8,7 @@ import ParticleBackground from "@/components/ParticleBackground";
 import { createClient } from "@/lib/supabase/server";
 import { cookies } from "next/headers";
 import { Tables } from "../../database.types";
+import Experience from "@/components/Experience";
 
 export const metadata: Metadata = {
   title: "Muhammad Mardiansyah | Software Engineer",
@@ -38,7 +39,6 @@ const Page = async () => {
   const supabase = createClient(cookieStore);
 
   const { data } = await supabase.from("projects").select("*,categories(name)");
-  console.log(data);
   return (
     <div>
       <ParticleBackground />
@@ -48,6 +48,7 @@ const Page = async () => {
         <AboutMe />
         <Skills />
         {data != null ? <Projects projects={data as unknown as Tables<"projects">} /> : null}
+        <Experience />
       </div>
     </div>
   );
