@@ -28,7 +28,11 @@ function CardPorject({ project }: { project: Tables<"projects"> }) {
         >
           Detail
         </Button>
-        <Button size="sm" variant="outline">
+        <Button
+          onClick={() => window.open("https://github.com/mardiansyah17/qur_an")}
+          size="sm"
+          variant="outline"
+        >
           Repository
         </Button>
         <Button size="sm" variant="outline">
