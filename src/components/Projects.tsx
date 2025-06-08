@@ -1,5 +1,5 @@
 import CardPorject from "@/components/CardPorject";
-import { Database, Tables } from "../../../database.types";
+import { Database, Tables } from "../../database.types";
 
 const Projects = ({ projects }: { projects: Tables<"projects"> }) => {
   return (
