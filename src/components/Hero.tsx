@@ -149,7 +149,7 @@ const Hero: FC = () => {
   }, []);
 
   const handleDownloadCV = (): void => {
-    window.open("/documents/Muhammad Mardiansyah - CV.pdf", "_blank");
+    window.open("https://mardi-1356508533.cos.ap-jakarta.myqcloud.com/Muhammad%20Mardiansyah-CV.pdf", "_blank",  "noopener,noreferrer");
   };
 
   return (
@@ -223,7 +223,7 @@ const Hero: FC = () => {
               onClick={handleDownloadCV}
               className="shine-button bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/30"
             >
-              Unduh CV
+              Lihat CV
             </button>
           </div>
         </div>

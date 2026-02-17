@@ -1,0 +1,3 @@
+module.exports=[31252,a=>{a.v({className:"poppins_62911bbd-module__9BcuKW__className"})},27572,a=>{"use strict";var b=a.i(7997),c=a.i(31252);let d={className:c.default.className,style:{fontFamily:"'Poppins', 'Poppins Fallback'",fontStyle:"normal"}};function e({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{className:`${d.className} bg-[#041F31] text-orange-100 pb-10`,children:a})})}null!=c.default.variable&&(d.variable=c.default.variable),a.s(["default",()=>e,"metadata",0,{title:{template:"%s | Mardiancode",default:"Home"},robots:{index:!0,follow:!0,googleBot:{index:!0,"max-video-preview":-1,"max-image-preview":"large","max-snippet":-1}}}],27572)}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__24bdf211._.js.map
