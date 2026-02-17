@@ -149,7 +149,7 @@ const Hero: FC = () => {
   }, []);
 
   const handleDownloadCV = (): void => {
-    window.open("https://mardi-1356508533.cos.ap-jakarta.myqcloud.com/Muhammad%20Mardiansyah-CV.pdf", "_blank",  "noopener,noreferrer");
+    window.open("https://mardian.engineer/muhammad-mardiansyah-cv", "_blank",  "noopener,noreferrer");
   };
 
   return (
