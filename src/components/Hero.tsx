@@ -149,7 +149,7 @@ const Hero: FC = () => {
   }, []);
 
   const handleDownloadCV = (): void => {
-    window.open("https://mardian.engineer/muhammad-mardiansyah-cv", "_blank",  "noopener,noreferrer");
+    window.open("/documents/Muhammad Mardiansyah - CV.pdf", "_blank",  "noopener,noreferrer");
   };
 
   return (
