@@ -149,7 +149,7 @@ const Hero: FC = () => {
   }, []);
 
   const handleDownloadCV = (): void => {
-    window.open("/documents/Muhammad Mardiansyah - CV.pdf", "_blank",  "noopener,noreferrer");
+    window.open("/muhammad-mardiansyah-cv", "_blank",  "noopener,noreferrer");
   };
 
   return (
