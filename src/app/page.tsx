@@ -12,27 +12,48 @@ import { MdOutlineLocationOn } from "react-icons/md";
 
 export const metadata: Metadata = {
   title: "Muhammad Mardiansyah | Software Engineer",
-  generator: "Next.js",
-  referrer: "origin-when-cross-origin",
-  keywords: [
-    "Muhammad Mardiansyah Software Engineer",
-    "Muhammad Mardiansyah",
-    "Software Engineer",
-    "Muhammad Mardiansyah Portfolio",
-    "Muhammad Mardiansyah Blog",
-    "Muhammad Mardiansyah Resume",
-    "Muhammad Mardiansyah Projects",
-    "Muhammad Mardiansyah Skills",
-    "Muhammad Mardiansyah Fullstack developer",
-    "Muhammad Mardiansyah Programmer",
-    "Muhammad Mardiansyah Universitas Bina Darma",
-    "Muhammad Mardiansyah Bina Darma",
-  ],
   description:
-    "Saya Muhammad Mardiansyah seorang software engineer yang berfokus pada pengembangan aplikasi web dan mobile. Saya mahasiswa dari Universitas Bina Darma jurusan Teknik Informatika. Saya memiliki pengalaman dalam pengembangan aplikasi web dan mobile selama 2 tahun. Saya memiliki kemampuan dalam pengembangan aplikasi web dan mobile menggunakan teknologi terbaru seperti React, React Native, Node.js, Express.js, dan MongoDB. Saya juga memiliki kemampuan dalam pengembangan aplikasi web menggunakan teknologi seperti HTML, CSS, dan JavaScript. Saya juga memiliki kemampuan dalam pengembangan aplikasi mobile menggunakan teknologi seperti React Native. Saya juga memiliki kemampuan dalam pengembangan aplikasi backend menggunakan teknologi seperti Node.js, Express.js, dan MongoDB. Saya juga memiliki kemampuan dalam pengembangan aplikasi frontend menggunakan teknologi seperti React. Saya juga memiliki kemampuan dalam pengembangan aplikasi backend menggunakan teknologi seperti Node.js, Express.js, dan MongoDB. Saya juga memiliki kemampuan dalam pengembangan aplikasi frontend menggunakan teknologi seperti React.",
+    "Portfolio Muhammad Mardiansyah, Software Engineer yang berfokus pada pengembangan aplikasi web, mobile, backend, dan deployment aplikasi ke VPS.",
+
+  keywords: [
+    "Muhammad Mardiansyah",
+    "Muhammad Mardiansyah Software Engineer",
+    "Muhammad Mardiansyah Portfolio",
+    "Mardiancode",
+    "Software Engineer Palembang",
+    "Fullstack Developer",
+    "Web Developer",
+    "Mobile Developer",
+    "Flutter Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Laravel Developer",
+    "Node.js Developer",
+    "Programmer Palembang",
+    "Universitas Bina Darma",
+    "Bangkit Academy",
+  ],
+
   authors: [{ name: "Muhammad Mardiansyah" }],
   creator: "Muhammad Mardiansyah",
   publisher: "Muhammad Mardiansyah",
+
+  openGraph: {
+    title: "Muhammad Mardiansyah | Software Engineer",
+    description:
+      "Portfolio Muhammad Mardiansyah, Software Engineer yang berfokus pada pengembangan aplikasi web, mobile, backend, dan deployment aplikasi ke VPS.",
+    url: "https://mardiansyah.tech",
+    siteName: "Mardiancode",
+    type: "website",
+    locale: "id_ID",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Muhammad Mardiansyah | Software Engineer",
+    description:
+      "Portfolio Muhammad Mardiansyah, Software Engineer yang berfokus pada pengembangan aplikasi web, mobile, backend, dan deployment aplikasi ke VPS.",
+  },
 };
 
 const AuroraBackground: FC = () => (
