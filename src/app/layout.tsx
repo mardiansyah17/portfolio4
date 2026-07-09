@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
 
 const poppins = Poppins({ weight: ["300", "400", "500", "600", "700"], subsets: ["latin"] });
-// const inter = Inter({subsets: ['latin']});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mardiansyah.tech"),

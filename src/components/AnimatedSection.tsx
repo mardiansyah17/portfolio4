@@ -2,8 +2,10 @@
 
 import { FC, ReactNode, useEffect, useRef, useState } from "react";
 
+const observerOptions: IntersectionObserverInit = { threshold: 0.1 };
+
 const AnimatedSection: FC<AnimatedSectionProps> = ({ children, className }) => {
-  const [ref, isVisible] = useOnScreen({ threshold: 0.1 });
+  const [ref, isVisible] = useOnScreen(observerOptions);
   return (
     <section
       ref={ref}
